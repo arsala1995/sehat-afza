@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sehat Afza</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    
+<body>
+    <section class="sub-header">
+        <nav>
+        <a href="index.html"><img src="images/log.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li> <a href="index.html">HOME</a> </li>
+            <li> <a href="About%20Us.html">ABOUT</a> </li>
+            <li> <a href="Products.html">PRODUCTS</a> </li>
+            <li> <a href="Blog.html">BLOG</a> </li>
+            <li> <a href="Contact.html">CONTACT</a> </li>
+            </ul> 
+        </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        
+<h1> Our Products</h1>
+    
+    </section>
+    
+  
+    <!------Products------->
+    
+    <section class="Products">
+        <h1> Products we sell</h1>
+        <p> We sell products based on customers' demand</p>
+        <div class="row">
+            <div class="Products-col">
+              <h3> Organic oil</h3>
+                <p> We provide a wide range of organic oils for a variety of uses. For greater health, these oils are free of chemicals and derived from natural herbs. Hair treatment oil, for example, nourishes hair and prevents hair loss. We provide face lift oils that assist extend the face and make you look younger than your true age; it aids in the disappearance of wrinkles and the reduction of freckles on the face.</p>
+                
+            </div>
+        <div class="Products-col">
+              <h3> Organic Powder</h3>
+                <p> We sell a variety of powders to address various health issues. Powders such as spinal cord pain powder, bone powder, kidney powder, weight loss powder, vision powder, lung health powder, and others have been given in response to customer requests.</p>
+                
+            </div>
+         <div class="Products-col">
+              <h3> Natural gel</h3>
+                <p> We've created a variety of gels for various applications, all of which are made entirely of organic components. Flax hair gel, face gel, and other gels are included in this collection.</p>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+    
+        <!-------Footer--->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Botanic and herbal remedies have been used for millennia and have always yielded beneficial effects. We came up with the notion of resurrecting and sharing the botanical magic with others in order to preserve this tradition alive. Using herbal goods gives one the satisfaction of knowing that they are chemical-free and have no adverse effects. We wanted to offer the best of what we've learned over the years about our goods. Sharing our years of knowledge with you will not only help you get better faster, but it will also help to preserve the tradition of herbal use alive.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-envelope"></i>
+        </div>
+        
+    </section>
+
+
+    
+    <!-------JavaScript for Toggle Menu----->
+    <script>
+         
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+          function hideMenu(){
+              navLinks.style.right="-200px"; 
+          }
+           
+        
+
+        
+        
+    </script>
+    </body>
+
+
+</html>
